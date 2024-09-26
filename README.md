@@ -5,7 +5,6 @@
 The SOAR-EDR project aimed to enchance an organization's cybersecurity posture by making the incident response processes efficient, improving threat detection and mitigation efficiency, and reducing the time to respond to security incidents. The primary focus was to generate events and send alerts to different communication channels utilizing a SOAR platform with endpoint detection and response. This hands on experience was designed to deepen understanding of automation, integration, and incident response strategies. By meeting these goals, the project aimed to foster a proactive cybersecurity environment that not only responds to threats more effectively but also empowers security teams to focus on strategic initiatives. 
 
 ### Skills Learned
-[Bullet Points - Remove this afterwards]
 
 - Integration of SOAR platform with existing EDR solutions.
 - Develop and deploy automated workflows for incident response, including threat detection and containment.
