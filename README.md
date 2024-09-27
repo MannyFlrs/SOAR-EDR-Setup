@@ -13,11 +13,10 @@ The SOAR-EDR project aimed to enchance an organization's cybersecurity posture b
 - Develop detailed documentation of the workflows, configurations, and best practices, ensuring proficient use of tool amognst personnel.
 
 ### Tools Used
-[Bullet Points - Remove this afterwards]
 
-- LimaCharlie Security Information and Event Management (SIEM) system for log ingestion and analysis.
-- Tines Network analysis tools (such as Wireshark) for capturing and examining network traffic.
-- Virtualbox Telemetry generation tools to create realistic network traffic and attack scenarios.
+- LimaCharlie Security for endpoint security, threat detection, and incident response.
+- Automation tools such as (Tines) to streamline workflows by automating repetitive tasks.
+- Virtualbox to run a virtual machine and create events without harming my own computer.
 
 ## Steps
 drag & drop screenshots here or use imgur and reference them using imgsrc
