@@ -15,9 +15,9 @@ The SOAR-EDR project aimed to enchance an organization's cybersecurity posture b
 ### Tools Used
 [Bullet Points - Remove this afterwards]
 
-- Security Information and Event Management (SIEM) system for log ingestion and analysis.
-- Network analysis tools (such as Wireshark) for capturing and examining network traffic.
-- Telemetry generation tools to create realistic network traffic and attack scenarios.
+- LimaCharlie Security Information and Event Management (SIEM) system for log ingestion and analysis.
+- Tines Network analysis tools (such as Wireshark) for capturing and examining network traffic.
+- Virtualbox Telemetry generation tools to create realistic network traffic and attack scenarios.
 
 ## Steps
 drag & drop screenshots here or use imgur and reference them using imgsrc
