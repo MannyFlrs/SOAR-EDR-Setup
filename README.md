@@ -30,6 +30,6 @@ The SOAR-EDR project aimed to enchance an organization's cybersecurity posture b
    - Tines will also ask the user if they want to isolate the machine, from the user prompt if yes then LimaCharlie will isolate the machine automatically and send a message to slack with the isolation status
    - If no, message will be sent over to Slack with the message saying "The computer was not isolated, please ivestigate"
 
-2. 
+2. Install and setup LimaCharlie. Also making sure the endpoint is connected and is generating events
 
 
