@@ -21,5 +21,14 @@ The SOAR-EDR project aimed to enchance an organization's cybersecurity posture b
 ## Steps
 1. Create a playbook workflow and brainstorm what actions should the playbook take
    - To create the workbook, use any diagramming program/application. What was used for this project is draw.io
-   - ![Screenshot 2024-09-26 110701](https://github.com/user-attachments/assets/9481014f-c743-455a-b9ba-f12e8012551c)
+   - Use four rounded rectangles to start the workbook, the 4 rectangles will be labeled LimaCharlie, Tines, Slack, and Email
+   - LimaCharlie sends a detection over to Tines, and Tines will then send a message with details over to Slack and one via Email
+   - Add a rectangle to demonstrate the user prompt, with the question "Does the user want to islate the machine?"
+   - If yes, LimaCharlie will isolate the machine. If no, message will be sent over to slack
+![Screenshot 2024-09-26 110701](https://github.com/user-attachments/assets/e5678eb4-6531-41e0-a75a-21da582b21bb)
+   - To run it back, LimaCharlie detects the HackTool and sends it over to Tines where it will send a message with details via Email and Slack
+   - Tines will also ask the user if they want to isolate the machine, from the user prompt if yes then LimaCharlie will isolate the machine automatically and send a message to slack with the isolation status
+   - If no, message will be sent over to Slack with the message saying "The computer was not isolated, please ivestigate" 
+
+
 
