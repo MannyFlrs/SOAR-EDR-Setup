@@ -28,7 +28,8 @@ The SOAR-EDR project aimed to enchance an organization's cybersecurity posture b
 ![Screenshot 2024-09-26 110701](https://github.com/user-attachments/assets/e5678eb4-6531-41e0-a75a-21da582b21bb)
    - To run it back, LimaCharlie detects the HackTool and sends it over to Tines where it will send a message with details via Email and Slack
    - Tines will also ask the user if they want to isolate the machine, from the user prompt if yes then LimaCharlie will isolate the machine automatically and send a message to slack with the isolation status
-   - If no, message will be sent over to Slack with the message saying "The computer was not isolated, please ivestigate" 
+   - If no, message will be sent over to Slack with the message saying "The computer was not isolated, please ivestigate"
 
+2. 
 
 
