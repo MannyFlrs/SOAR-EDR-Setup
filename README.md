@@ -19,10 +19,7 @@ The SOAR-EDR project aimed to enchance an organization's cybersecurity posture b
 - Virtualbox to run a virtual machine and create events without harming my own computer.
 
 ## Steps
-drag & drop screenshots here or use imgur and reference them using imgsrc
+1. Create a playbook workflow and brainstorm what actions should the playbook take
+   - To create the workbook, use any diagramming program/application. What was used for this project is draw.io
+   - ![Screenshot 2024-09-26 110701](https://github.com/user-attachments/assets/9481014f-c743-455a-b9ba-f12e8012551c)
 
-Every screenshot should have some text explaining what the screenshot is about.
-
-Example below.
-
-*Ref 1: Network Diagram*
