@@ -31,5 +31,11 @@ The SOAR-EDR project aimed to enchance an organization's cybersecurity posture b
    - If no, message will be sent over to Slack with the message saying "The computer was not isolated, please ivestigate"
 
 2. Install and setup LimaCharlie. Also making sure the endpoint is connected and is generating events
+   - Head over to the Installation Keys tab and create an installation key
+   - ![Screenshot 2024-09-27 102640](https://github.com/user-attachments/assets/98c2582b-d262-44cf-a379-39feaf46784c)
+   - In the Installation Keys tab unser the Sensor Downloads section, download the LimaCharlie executable and copy the Senor Key
+   - ![Screenshot 2024-09-27 103051](https://github.com/user-attachments/assets/cf4e51c7-9ae2-4e09-867c-2ff2412c702e)
+
+
 
 
