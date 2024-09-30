@@ -52,6 +52,7 @@ The SOAR-EDR project aimed to enchance an organization's cybersecurity posture b
    - Establish the link between LimaCharlie and Tines, start by adding a Webhook
    - Name it as "Retrieve Detections" and under description add "Retrieves LimaCharlie Detections"
    - To officially esrtablish the connection between the two, copy the Webhook URL then head over to LimaCharlie. Go to the "Outputs" tab, click on add output, select Detections, select Tines, name it and paste the Webhook URL into the Destination Host  ![Screenshot 2024-09-30 122108](https://github.com/user-attachments/assets/7d0e99af-ccf5-4726-bc39-7b0d0b7d029e) ![Screenshot 2024-09-30 122353](https://github.com/user-attachments/assets/1cdaa672-7639-48f0-9b0f-3bccb2f7df15) ![Screenshot 2024-09-30 122409](https://github.com/user-attachments/assets/31e1529a-ce05-46f1-abc2-102f19a9fe96)
+     
 
 
 
