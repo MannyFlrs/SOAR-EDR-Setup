@@ -32,9 +32,20 @@ The SOAR-EDR project aimed to enchance an organization's cybersecurity posture b
 
 2. Install and setup LimaCharlie. Also making sure the endpoint is connected and is generating events
    - Head over to the Installation Keys tab and create an installation key
-   - ![Screenshot 2024-09-27 102640](https://github.com/user-attachments/assets/98c2582b-d262-44cf-a379-39feaf46784c)
-   - In the Installation Keys tab unser the Sensor Downloads section, download the LimaCharlie executable and copy the Senor Key
-   - ![Screenshot 2024-09-27 103051](https://github.com/user-attachments/assets/cf4e51c7-9ae2-4e09-867c-2ff2412c702e)
+   - ![Screenshot 2024-09-27 102640](https://github.com/user-attachments/assets/98c2582b-d262-44cf-a379-39feaf46784c) ![Screenshot 2024-09-27 103051](https://github.com/user-attachments/assets/cf4e51c7-9ae2-4e09-867c-2ff2412c702e)
+   - In the Installation Keys tab under the Sensor Downloads section, download the LimaCharlie executable and copy the Senor Key
+   - After the download is completed, open Powershell and navigate over to the downloads directory with the command "cd Downloads"
+   - Type in "dir" and the LimaCharlie executbale can be seen in there
+   - Type in in the LimaCharlie executbale file followed by "-i" then paste in the sensor key that was copied directly from the Installation Key tab
+   - The computer name can now be seen under the Sensor List ![Screenshot 2024-09-27 105947](https://github.com/user-attachments/assets/ee987867-387c-46c2-9e67-c9d5c8e6db54) ![Screenshot 2024-09-27 110532](https://github.com/user-attachments/assets/f765058d-f43b-4547-9e4b-1384e9f9949c)
+  
+3. Generate telemetry and create a detection & response rule in LimaCharlie to detect those events where Tines will automate
+   - Head over to LaZagne's github and click on the releases, then download the LaZagne file
+   - In the windows settings, disable real time preotections so that the file can be downloaded (this was done in a VM)
+   - At this point, LimaCharlie should have been able to detect that event (the LaZagne file) and give us some information to start generating our detection rule
+   - In LimaCharlie, click on the "Automation" tab and proceed with "D&R Rules" and click on the "New Rule" button ![Screenshot 2024-09-30 115410](https://github.com/user-attachments/assets/3350a6d0-6ed0-4cd0-a695-b8875f887dd8)
+
+
 
 
 
