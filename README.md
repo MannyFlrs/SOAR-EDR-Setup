@@ -68,7 +68,8 @@ The SOAR-EDR project aimed to enchance an organization's cybersecurity posture b
    - Add 2 triggers, Yes and No respectively
    - Under "No", add another Slack template containing the message that was created earlier when the user selects no
    - Under "Yes", add a LimaCharlie template so that it can automatically isolate the machine when user is prompted if they want the machine to be isolated
-   - Once again, add another Slack template so that a success message is sent, confirming that LimaCharlie did in fact automatically isolate the machine ![Screenshot 2024-09-30 173418](https://github.com/user-attachments/assets/31968296-0854-4552-b032-f0af21d503d8)
+   - Once again, add another Slack template so that a success message is sent, confirming that LimaCharlie did in fact automatically isolate the machine ![Screenshot 2024-09-30 173638](https://github.com/user-attachments/assets/fa9eff3f-dc09-4911-b38d-f8b743687719)
+
 
 
 
