@@ -52,7 +52,25 @@ The SOAR-EDR project aimed to enchance an organization's cybersecurity posture b
    - Establish the link between LimaCharlie and Tines, start by adding a Webhook
    - Name it as "Retrieve Detections" and under description add "Retrieves LimaCharlie Detections"
    - To officially esrtablish the connection between the two, copy the Webhook URL then head over to LimaCharlie. Go to the "Outputs" tab, click on add output, select Detections, select Tines, name it and paste the Webhook URL into the Destination Host  ![Screenshot 2024-09-30 122108](https://github.com/user-attachments/assets/7d0e99af-ccf5-4726-bc39-7b0d0b7d029e) ![Screenshot 2024-09-30 122353](https://github.com/user-attachments/assets/1cdaa672-7639-48f0-9b0f-3bccb2f7df15) ![Screenshot 2024-09-30 122409](https://github.com/user-attachments/assets/31e1529a-ce05-46f1-abc2-102f19a9fe96)
-     
+  
+5. Creating the workbook from the first step to send a Slack message and an email containing important information about the detection that LimaCharlie generated. Tines will prompt the user if they want to isolate the machine (Yes/No), if the user selects Yes then LimaCharlie should automatically isolate the machine
+   - Infected host with detect Hack Tool
+   - LimaCharlie detects it
+   - Pushes alert over to tines
+   - Tines sends a message with detailed information via email and slack
+   - User is then prompt if they want to isolate the machine
+   - If yes, LimaCharlie will automatically do so
+   - If no, a message will be sent via slack prompting the user to investigate the alert ![Screenshot 2024-09-30 170611](https://github.com/user-attachments/assets/1d738f8f-2c5b-48df-a1ed-6e450c91fdf7)
+  
+   - On Tines add the Slack and Email tools on the story
+   - Fill in their respective fields with values to however the message should be sent
+   - On the left hand side under tools, hover over it and select on "Page", this is will become the user prompt 
+   - Add 2 triggers, Yes and No respectively
+   - Under "No", add another Slack template containing the message that was created earlier when the user selects no
+   - Under "Yes", add a LimaCharlie template so that it can automatically isolate the machine when user is prompted if they want the machine to be isolated
+   - Once again, add another Slack template so that a success message is sent, confirming that LimaCharlie did in fact automatically isolate the machine ![Screenshot 2024-09-30 173418](https://github.com/user-attachments/assets/31968296-0854-4552-b032-f0af21d503d8)
+
+
 
 
 
